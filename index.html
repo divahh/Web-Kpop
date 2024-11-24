@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- My Own Styles -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Limelight&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Pattaya&display=swap" rel="stylesheet">
+    <title>Kpop</title>
+</head>
+<body>
+    <header>
+        <div class="jumbotron">
+            <h1>Korean Pop</h1>
+            <br>Hello Chingu! apa sih itu Korean Pop? Simak penjelasan dibawah!</p>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#pengertian">Pengertian</a></li>
+                <li><a href="#genre">Genre</a></li>
+                <li><a href="#about">About me</a></li>
+                <li><a href="#lagu">List Lagu</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="content1">
+            <h2 id="pengertian">Pengertian Kpop</h2>
+            <article>
+                <img src="NewJeans.jpg" alt="New Jeans" class="featured">
+                <p>Arti K-Pop adalah Korean Pop atau musik populer yang berasal dari Korea Selatan. Genre dari musik yang dimaksud pun beragam, bisa dari hip-hop, jazz, rock, electronic dance, dan lain sebagainya. 
+                    Biasanya musik ini dibawakan oleh sebuah grup yang terdiri dari empat sampai tujuh member. Namun, jumlah tersebut bukan patokan. Pasalnya, ada grup K-Pop yang diisi hingga belasan hingga puluhan member. 
+                    Hingga saat ini, K-Pop dan Kdrama menjadi dua hal tak terpisahkan dari Gelombang Korea (Korean Wave) di berbagai negara di seluruh dunia. basis penggemar yang besar untuk K-Pop membuatnya makin dikenal. Arti K-Pop di Indonesia pun kini bukan lagi hal asing.</p>
+            </article>
+        </div>
+        <div class="content2">
+            <h2 id="genre">Genre</h2>
+            <article>
+                <section>
+                    <a href="https://www.youtube.com/watch?v=R9At2ICm4LQ&pp=ygURcmVkIHZlbHZldCBiYWxsZXQ%3D"><img src="Rv.jpg" alt="Red Velvet" class="middle"></a>
+                </section>
+                <section>
+                    <a href="https://www.youtube.com/watch?v=-EfjXQgE1e8&pp=ygUSdW52aWxsZWdlIGJhZWtoeXVu"><img src="Baekhyun.jpg" alt="Baekhyun EXO" class="middle"></a>
+                </section>
+                <section>
+                    <a href="https://www.youtube.com/watch?v=trzeUClQIIg&pp=ygUMaW4gYmxvb20gemIx"><img src="zb1.jpg" alt="ZB1" class="middle"></a>
+                </section>
+            </article>
+        </div>
+        <div class="container">
+        <div class="content3">
+            <h3 id="about">About me</h3>
+            <figure>
+                <img src="Me.jpg" alt="Me" class="identity">
+                <figcaption>This is me!</figcaption>
+            </figure>
+        </div>
+        <aside>
+            <h3 id="lagu">List Lagu</h3>
+            <p>Lydia Ganada - Party Tonight (feat. aleebi) <br> 
+                Jimmy Brown - Wonderin <br>
+                CHAI (이수정) - Bloom <br>
+                Daul - Fall Down (Feat. THAMA)<br>
+                Jimmy Brown - say less<br>
+                Sweet The Kid - i need you more (feat. Suyo)<br>
+                george - ANYWHERE ANYTIME<br>
+                SMMT - Knock Knock (Feat. pH-1, Moon Sujin)<br>
+                george - love in summer<br>
+                SOLE - ore ore<br>
+                VVON - Why (Feat. Hoody)<br>
+                soowoo - All I Have (feat. sonny zero)<br>
+                Vincent Blue - Take it To the Grave<br>
+                soowoo - what should I do (Feat. dori)</p>
+            
+            <button id="play"><img src="play.jpg"></button>
+            <script type="text/javascript">
+                let play = document.getElementById("play");
+                function playAudio() {
+                    let audio = new Audio("song.mp3");
+                    audio.play();
+                }
+                play.addEventListener("click", playAudio);
+            </script>
+        </aside>
+    </div>
+    </main>
+
+    <footer>
+        &copy; 2023, Diva Halimah Hasan
+        <table>
+            <tr><td><a href="https://instagram.com/di.vayaa?igshid=MzRlODBiNWFlZA==">Instagram</a></td>
+                <td> | </td>
+            <td><a href="https://x.com/divmew?t=nKVbYjqFDHMCCjB7nWEDOA&s=08">Twitter</a></td></tr>
+        </table>
+    </footer>
+</body>
+</html>
